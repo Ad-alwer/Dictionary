@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background-color: #032332e5;
+}
+#logoimg {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 600px;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  box-shadow: 0px 10px 30px 26px rgba(1, 1, 50, 0.2);
+  border: 5px solid rgb(230, 227, 227);
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+#warning {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(179, 8, 8);
+  cursor: pointer;
+}
+#warning p {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+#show {
+  color: black;
+}
+
+#show ul li {
+  list-style: none;
+}
+
+
+span{
+    display: table;
+    margin: 0 auto;
+}
